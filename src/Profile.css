@@ -1,0 +1,297 @@
+:root {
+    --primary-color: #FC8A06;
+    --secondary-color: #03081F; 
+    --light-bg: #FBFBFB;
+    --dark-bg: #212529;
+    --text-color: #000000CC;
+    --font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    font-family: var(--font-family);
+    color: var(--secondary-color);
+  }
+
+
+  .Productpage-container {
+    width: 1250px;
+    max-width: 1400px; 
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+
+  .s1{
+    display: flex;
+  }
+
+  .mp{
+    font-size: 25px;
+    margin-left: 5px;
+    font-weight: bold;
+  }
+
+  .arr{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+  }
+
+  .s2{
+    display: flex;
+  }
+
+  .pro{
+    height: 60px;
+  }
+
+  .pf{
+    margin-left: 10px;
+    font-size: 18px;
+  }
+
+  .fh{
+    display: flex;
+  }
+
+  .mr1{
+    width: 640px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+  }
+
+  .mr2{
+    width: 640px;
+    height: 50px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+  }
+
+  .ea{
+    margin-left: 20px;
+  }
+
+  .ll{
+    margin-top: 50px;
+    width: 1300px;
+  }
+
+  .cards{
+    display: flex;
+  }
+
+  .debit{
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    margin-right: 10px;
+  }
+
+  .deb{
+    display: flex;
+    width: 290px;
+    height: 70px;
+    border-radius: 10px;
+    margin-right: 40px;
+    background-color: #FAFAFA;
+    border-color: #00000080;
+  }
+
+  .x{
+    font-size: 20px;
+    margin-top: 15px;
+  }
+
+  .xx{
+    font-size: 12px;
+    margin-top: 0px;
+    margin-left: -120px;
+  }
+
+  .xxx{
+    font-size: 12px;
+    margin-top: 0px;
+    margin-left: -148px;
+  }
+
+  
+
+  .pen{
+    margin-left: 15px;
+    margin-top: 25px;
+  }
+
+
+  .main{
+    display: flex;
+  }
+
+  .edit{
+    margin-left: 1070px;
+    margin-top: 130px;
+    width: 55px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #FC8A06;
+    color: #FAFAFA;
+    border: none;
+    cursor: pointer
+  }
+
+  @media (max-width: 768px) {
+    .Productpage-container {
+      width: 100%;
+      padding: 10px;
+      margin-top: 30px;
+    }
+  
+    .s1 {
+      flex-direction: column;
+    }
+  
+    .mp {
+      font-size: 20px;
+      margin-left: 0;
+    }
+  
+    .arr {
+      width: 25px;
+      height: 25px;
+      margin-top: 10px;
+    }
+  
+    .s2 {
+      flex-direction: column;
+    }
+  
+    .pro {
+      height: 50px;
+    }
+  
+    .pf {
+      font-size: 16px;
+      margin-left: 0;
+    }
+  
+    .fh {
+      flex-direction: column;
+    }
+  
+    .mr1,
+    .mr2 {
+      width: 100%;
+      height: 40px;
+      margin-left: 0;
+      margin-bottom: 10px;
+    }
+  
+    .ea {
+      margin-left: 0;
+    }
+  
+    .ll {
+      width: 100%;
+    }
+  
+    .cards {
+      flex-direction: column;
+    }
+  
+    .debit {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .deb {
+      width: 100%;
+      height: auto;
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
+  
+    .x {
+      font-size: 16px;
+    }
+  
+    .xx,
+    .xxx {
+      font-size: 10px;
+      margin-left: 0;
+    }
+  
+    .pen {
+      margin-left: 0;
+      margin-top: 15px;
+    }
+  
+    .main {
+      flex-direction: column;
+    }
+  
+    .edit {
+      width: 100px;
+      height: 35px;
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Productpage-container {
+      padding: 5px;
+      margin-top: 20px;
+    }
+  
+    .mp {
+      font-size: 18px;
+    }
+  
+    .arr {
+      width: 20px;
+      height: 20px;
+    }
+  
+    .mr1,
+    .mr2 {
+      width: 100%;
+      height: 35px;
+    }
+  
+    .pf {
+      font-size: 14px;
+    }
+  
+    .deb {
+      width: 100%;
+      height: auto;
+    }
+  
+    .x {
+      font-size: 14px;
+    }
+  
+    .xx,
+    .xxx {
+      font-size: 10px;
+    }
+  
+    .edit {
+      width: 80px;
+      height: 30px;
+      font-size: 14px;
+    }
+  }
+  
+  
+
+
+
+  

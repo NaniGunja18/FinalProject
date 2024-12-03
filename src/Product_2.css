@@ -1,0 +1,654 @@
+:root {
+  --primary-color: #FC8A06;
+  --secondary-color: #03081F;
+  --light-bg: #FBFBFB;
+  --dark-bg: #212529;
+  --text-color: #000000CC;
+  --font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  font-family: var(--font-family);
+  color: var(--secondary-color);
+}
+
+.Productpage-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+
+
+.mcdon{
+
+  width: 100%;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.p-c{
+  display: flex;
+}
+
+.right-side{
+  margin-top: 70px;
+}
+
+.link{
+  display: flex;
+  width: 350px;
+  height: 90px;
+  background-color: #FC8A06;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+
+}
+
+.copy{
+  width: 90px;
+  height: 30px;
+  margin-right: 20px;
+  border-radius: 50px;
+  border: none;
+  color: #FC8A06;
+}
+
+.share{
+  color: white;
+  margin-left: 20px;
+}
+
+.link img{
+
+  height: 40px;
+}
+
+.items-container{
+  display: flex;
+}
+
+.img-block{
+  width: 450px;
+}
+
+
+.cls{
+  width: 30px;
+}
+
+.bg-left{
+  padding-top: 150px;
+  padding-left: 40px;
+}
+.bg-mid{
+  padding-top: 15px;
+  padding-left: 40px;
+}
+
+.note{
+  height: 50px;
+  width: 250px;
+  margin-right: 15px;
+  border-radius: 50px;
+  background-color: #03081FE5;
+  color: #FAFAFA;
+  border-color:#FAFAFA ;
+}
+
+
+.rr1{
+  color: #FAFAFA;
+}
+
+.rr2{
+  color: #FAFAFA;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* .nn1{
+  height: 10px;
+} */
+
+.off{
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+
+
+.input-bar{
+  border-radius: 50px;
+  height: 40px;
+  width: 200px;
+  border-color:rgb(173, 165, 165) ;
+  margin-left: 450px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: #FAFAFA;
+  
+}
+
+.offers{
+  margin-top: 20px;
+}
+
+.navbar-main{
+  display: flex;
+}
+
+.navbar-main{
+  margin-top: 20px;
+  width: 1350px;
+  background-color: #FC8A06;
+  margin-left: -110px;
+  padding-left: 100px;
+  color: #FFFFFF;
+}
+
+.nav-10{
+  margin-top: 60px;
+  
+  
+}
+
+.nav-10-btn{
+  margin-top: 25px;
+  height: 30px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.nav-2{
+  padding: 30px;
+}
+
+.book-1{
+  display: flex;
+  padding-top: 60px;
+}
+
+.book-1 img{
+  height: 275px;
+  padding: 10px;
+}
+
+.burgers{
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.bg{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.book-2{
+display: flex;
+}
+
+.add{
+width: 450px;
+height: 300px; 
+}
+
+.book-2 img{
+  width: 430px;
+  height: 250px;
+}
+
+.book-3{
+  display: flex;
+  height: 250px;
+  width: 430px;
+}
+.book-4 img{
+  display: flex;
+  height: 250px;
+  width: 430px;
+}
+
+.fries{
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 20px;
+  color: #FC8A06;
+}
+
+.fr{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.book-5{
+  display: flex;
+  height: 250px;
+  width: 430px;
+}
+.book-6 img{
+  display: flex;
+  height: 250px;
+  width: 430px;
+}
+
+.cool-drinks{
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 20px;
+  color: #FC8A06;
+}
+
+.cd{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.left-con{
+  display: grid;
+}
+
+.right-con{
+  display: grid;
+}
+
+.d-left{
+  display: flex;
+}
+
+.d-right{
+  display: grid;
+  padding-left: 10px;
+  background-color: #03081F;
+  color:#FAFAFA;
+  width: 350px;
+  height: 550px;
+  border-radius: 10px;
+  margin-left: 80px;
+  
+}
+
+.d-right del3
+{
+  margin-left: 20px;
+}
+
+
+
+.delivary-details{
+  display: flex;
+  height: 550px;
+  width: 1200px;
+  padding-left: 100px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.del1{
+  font-size: 23px;
+  font-weight: bold;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.delivary-details img{
+  margin-top: 80px;
+  height: 30px;
+}
+
+.right-con{
+  padding-left: 100px;
+ 
+}
+
+.del2{
+  display: flex;
+  margin-top: -25px;
+}
+
+.del3{
+  display: flex;
+}
+
+.days{
+  font-weight: bold;
+}
+
+
+.comments{
+width: 100%;
+height: 450px;
+background-color: #D9D9D9;
+border-radius: 10px;
+margin-top: 60px;
+}
+
+.cmt{
+display: flex;
+}
+
+.cmt1{
+font-size: 30px;
+font-weight: bold;
+padding-top: 30px;
+padding-left: 30px;
+padding-right: 850px;
+}
+
+.arr{
+height: 50px;
+width: 45px;
+margin-top: 45px;
+padding: 5px;
+}
+.cmt-img{
+padding-left: 20px;
+}
+
+.cmt-img img{
+height: 220px;
+padding: 10px;
+}
+
+.rat img{
+width: 120px;
+margin-left: 600px;
+margin-top: 20px;
+}
+
+.popular-restaurants h2 {
+font-size: 24px;
+margin-bottom: 40px;
+padding-top: 60px;
+font-weight: bold;
+}
+
+.extra-items img{
+ width: 206px;
+ height: 250px;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ border-radius: 5px;
+}
+
+.category-grid,
+.restaurant-logos {
+display: flex;
+gap: 20px;
+justify-content: center;
+}
+
+.restaurant-logos img {
+width: 190px;
+}
+
+
+.re-logos{
+background-color: #FFFFFF;
+border: none;
+}
+.don{
+height: 250px;
+width: 430px; 
+}
+
+@media screen and (max-width: 768px) {
+  .Productpage-container {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .mcdon {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .p-c {
+    flex-direction: column;
+  }
+
+  .right-side {
+    margin-top: 20px;
+  }
+
+  .link {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+
+  .copy {
+    width: 60px;
+    height: 30px;
+  }
+
+  .share {
+    font-size: 14px;
+  }
+
+  .link img {
+    height: 30px;
+  }
+
+  .items-container {
+    flex-direction: column;
+  }
+
+  .img-block {
+    width: 100%;
+  }
+
+  .bg-left,
+  .bg-mid {
+    padding-left: 20px;
+  }
+
+  .note {
+    width: 150px;
+    height: 40px;
+    margin-right: 10px;
+  }
+
+  .off {
+    font-size: 25px;
+  }
+
+  .input-bar {
+    width: 100%;
+    margin-left: 0;
+    padding: 5px;
+  }
+
+  .navbar-main {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 20px;
+  }
+
+  .nav-10-btn {
+    margin-top: 10px;
+    height: 30px;
+    width: 80px;
+  }
+
+  .nav-2 {
+    padding: 20px;
+  }
+
+  .book-1,
+  .book-2,
+  .book-3,
+  .book-4,
+  .book-5,
+  .book-6 {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .book-1 img,
+  .book-2 img,
+  .book-3 img,
+  .book-4 img,
+  .book-5 img,
+  .book-6 img {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .fries,
+  .cool-drinks {
+    font-size: 24px;
+  }
+
+  .left-con,
+  .right-con {
+    display: block;
+  }
+
+  .d-left,
+  .d-right {
+    width: 100%;
+    padding-left: 10px;
+    margin-left: 0;
+  }
+
+  .d-right {
+    background-color: #03081F;
+    padding: 10px;
+    margin-left: 0;
+  }
+
+  .delivary-details {
+    flex-direction: column;
+    width: 100%;
+    padding-left: 10px;
+  }
+
+  .del1 {
+    font-size: 20px;
+  }
+
+  .delivary-details img {
+    height: 20px;
+  }
+
+  .del2 {
+    flex-direction: column;
+  }
+
+  .del3 {
+    flex-direction: column;
+  }
+
+  .days {
+    font-size: 18px;
+  }
+
+  .comments {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+
+  .cmt1 {
+    font-size: 24px;
+    padding-right: 20px;
+  }
+
+  .arr {
+    width: 35px;
+    height: 35px;
+  }
+
+  .cmt-img img {
+    height: 150px;
+  }
+
+  .rat img {
+    width: 100px;
+  }
+
+  .popular-restaurants h2 {
+    font-size: 22px;
+  }
+
+  .extra-items img {
+    width: 100%;
+    height: auto;
+  }
+
+  .category-grid,
+  .restaurant-logos {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .restaurant-logos img {
+    width: 150px;
+    height: auto;
+  }
+
+  .don {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Productpage-container {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .input-bar {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .navbar-main {
+    padding-left: 10px;
+  }
+
+  .book-1 img,
+  .book-2 img,
+  .book-3 img,
+  .book-4 img,
+  .book-5 img,
+  .book-6 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .cmt1 {
+    font-size: 20px;
+  }
+
+  .arr {
+    width: 30px;
+    height: 30px;
+  }
+
+  .cmt-img img {
+    height: 130px;
+  }
+
+  .rat img {
+    width: 90px;
+  }
+
+  .popular-restaurants h2 {
+    font-size: 18px;
+  }
+}

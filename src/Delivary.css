@@ -1,0 +1,309 @@
+:root {
+    --primary-color: #FC8A06;
+    --secondary-color: #03081F;
+    --light-bg: #FBFBFB;
+    --dark-bg: #212529;
+    --text-color: #000000CC;
+    --font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    font-family: var(--font-family);
+    color: var(--secondary-color);
+  }
+
+  .delivery-address-page {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .ya{
+    display: flex;
+  }
+
+  .y{
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .arr{
+    margin-right: 10px;
+    margin-top: 15px;
+    height: 50px;
+  }
+
+  .head{
+    margin-top: 45px;
+  }
+
+  .address-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: #AFAFAF;
+    width: 290px;
+  }
+  
+  .address-card.active {
+    border-color: orange;
+    background-color: #f9f9f9;
+    width: 290px;
+  }
+  
+  .address-card button {
+    margin-right: 5px;
+    width: 100px;
+    
+  }
+
+  .modify{
+    display: flex;
+  }
+  
+  .selected-address {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+
+  .addresses-container{
+    display: flex;
+    width: 300px;
+  }
+
+  .ed{
+    background-color: white;
+    border: none;
+    color: #FC8A06;
+  }
+
+  .add-address-button{
+    width: 290px;
+    height: 185px;
+    border-radius: 5px;
+    background-color: white;
+    border: 3px dashed #AFAFAF;
+    margin-top: 10px;
+  }
+
+  .plus{
+    height: 40px;
+    width: 40px;
+    color: #FC8A06;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    background-color: #FFEDD8;
+    font-size: 30px;
+  }
+
+  .default{
+    display: flex;
+  }
+
+  .def{
+    height: 25px;
+    width: -10px;
+    border-radius: 60px;
+    background-color: #FFEDD8;
+    color: #FC8A06;
+    border: none;
+    margin-top: 15px;
+    margin-left: 12px;
+  }
+
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .popup-content {
+    background: #fff;
+    padding: 20px;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .popup-content h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group textarea {
+    resize: none;
+    height: 80px;
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .form-buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-buttons button:first-child {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .form-buttons button:last-child {
+    background-color: #dc3545;
+    color: white;
+  }
+
+  
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: white;
+  }
+  
+  .form-group select:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  @media (max-width: 768px) {
+    :root {
+      --font-size-base: 14px;
+    }
+  
+    body {
+      padding: 10px;
+    }
+  
+    .delivery-address-page {
+      padding: 10px;
+      width: 100%;
+    }
+  
+    .ya {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .y {
+      font-size: 20px;
+    }
+  
+    .arr {
+      height: 30px;
+      margin: 0 auto 10px;
+    }
+  
+    .head {
+      margin-top: 20px;
+    }
+  
+    .address-card,
+    .add-address-button {
+      width: 100%;
+      margin: 5px 0;
+    }
+  
+    .address-card button {
+      width: 100%;
+    }
+  
+    .selected-address {
+      padding: 10px;
+    }
+  
+    .addresses-container {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .add-address-button {
+      height: 150px;
+    }
+  
+    .plus {
+      height: 30px;
+      width: 30px;
+      font-size: 24px;
+    }
+  
+    .default {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .def {
+      margin: 10px 0 0;
+    }
+  
+    .popup-overlay {
+      padding: 10px;
+    }
+  
+    .popup-content {
+      width: 90%;
+    }
+  
+    .popup-content h2 {
+      font-size: 1.25rem;
+    }
+  
+    .form-group input,
+    .form-group textarea {
+      padding: 8px;
+    }
+  
+    .form-buttons {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .form-buttons button {
+      width: 100%;
+    }
+  
+    .form-group select {
+      padding: 8px;
+    }
+  }
+  
+
+  

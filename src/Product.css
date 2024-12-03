@@ -1,0 +1,387 @@
+:root {
+    --primary-color: #FC8A06;
+    --secondary-color: #03081F;
+    --light-bg: #FBFBFB;
+    --dark-bg: #212529;
+    --text-color: #000000CC;
+    --font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    font-family: var(--font-family);
+    color: var(--secondary-color);
+  }
+
+  .Productpage-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+
+  .img-container{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-color: #03081FE5;
+    border-radius: 10px;
+  }
+
+  .items-container{
+    display: flex;
+  }
+
+  .img-block{
+    width: 450px;
+    cursor: pointer;
+  }
+
+
+  .cls{
+    width: 30px;
+  }
+
+  .bg-left{
+    padding-top: 150px;
+    padding-left: 40px;
+  }
+  .bg-mid{
+    display: flex;
+    padding-top: 15px;
+    padding-left: 40px;
+  }
+
+  .note{
+    height: 50px;
+    width: 250px;
+    margin-right: 15px;
+    border-radius: 50px;
+    background-color: #03081FE5;
+    color: #FAFAFA;
+    border-color:#FAFAFA ;
+  }
+
+  .burr{
+    height: 330px;
+    margin-top: 30px;
+    margin-left: 120px;
+  }
+
+  .rat{
+    height: 130px;
+    margin-left: -600px;
+    margin-top: 240px;
+  }
+
+  .dis{
+    background-color: #FC8A06;
+    width: 200px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-top: -10px;
+  }
+  
+
+  .rr1{
+    color: #FAFAFA;
+  }
+
+  .rr2{
+    color: #FAFAFA;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  /* .nn1{
+    height: 10px;
+  } */
+
+  .off{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 30px;
+  }
+
+ 
+  
+  .input-bar{
+    border-radius: 50px;
+    height: 40px;
+    width: 200px;
+    border-color:rgb(173, 165, 165) ;
+    margin-left: 450px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #FAFAFA;
+    
+  }
+
+  .offers{
+    margin-top: 20px;
+  }
+
+  .navbar-main{
+    display: flex;
+  }
+
+  .navbar-main{
+    margin-top: 20px;
+    width: 1350px;
+    background-color: #FC8A06;
+    margin-left: -110px;
+    padding-left: 100px;
+    color: #FFFFFF;
+  }
+
+  .nav-10{
+    margin-top: 60px;
+    
+    
+  }
+
+  .nav-10-btn{
+    margin-top: 25px;
+    height: 30px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: #000000;
+    color: #FFFFFF;
+  }
+
+  .nav-2{
+    padding: 30px;
+  }
+
+  .book-1{
+    display: flex;
+    padding-top: 60px;
+  }
+
+.book-1 img{
+    height: 275px;
+    padding: 10px;
+}
+
+.burgers{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.bg{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.book-2{
+  display: flex;
+}
+
+.add{
+  width: 450px;
+  height: 300px; 
+}
+
+.book-2 img{
+    width: 430px;
+    height: 250px;
+}
+
+.book-3{
+    display: flex;
+    height: 250px;
+    width: 430px;
+}
+.book-4 img{
+    display: flex;
+    height: 250px;
+    width: 430px;
+}
+
+.fries{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: #FC8A06;
+}
+
+.fr{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.book-5{
+    display: flex;
+    height: 250px;
+    width: 430px;
+}
+.book-6 img{
+    display: flex;
+    height: 250px;
+    width: 430px;
+}
+
+.cool-drinks{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: #FC8A06;
+}
+
+.cd{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.left-con{
+    display: grid;
+}
+
+.right-con{
+    display: grid;
+}
+
+.d-left{
+    display: flex;
+}
+
+.d-right{
+    display: grid;
+    padding-left: 10px;
+    background-color: #03081F;
+    color:#FAFAFA;
+    width: 350px;
+    height: 550px;
+    border-radius: 10px;
+    margin-left: 80px;
+    
+}
+
+.d-right del3
+{
+    margin-left: 20px;
+}
+
+
+
+.delivary-details{
+    display: flex;
+    height: 550px;
+    width: 1200px;
+    padding-left: 100px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.del1{
+    font-size: 23px;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.delivary-details img{
+    margin-top: 80px;
+    height: 30px;
+}
+
+.right-con{
+    padding-left: 100px;
+   
+}
+
+.del2{
+    display: flex;
+    margin-top: -25px;
+}
+
+.del3{
+    display: flex;
+}
+
+.days{
+    font-weight: bold;
+}
+
+
+.comments{
+  width: 100%;
+  height: 450px;
+  background-color: #D9D9D9;
+  border-radius: 10px;
+  margin-top: 60px;
+}
+
+.cmt{
+  display: flex;
+}
+
+.cmt1{
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 850px;
+}
+
+.arr{
+  height: 50px;
+  width: 45px;
+  margin-top: 45px;
+  padding: 5px;
+}
+.cmt-img{
+  padding-left: 20px;
+}
+
+.cmt-img img{
+  height: 220px;
+  padding: 10px;
+}
+
+.rat img{
+  width: 120px;
+  margin-left: 600px;
+  margin-top: 20px;
+}
+
+.popular-restaurants h2 {
+  font-size: 24px;
+  margin-bottom: 40px;
+  padding-top: 60px;
+  font-weight: bold;
+}
+
+.extra-items img{
+   width: 206px;
+   height: 250px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   border-radius: 5px;
+}
+
+.category-grid,
+.restaurant-logos {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.restaurant-logos img {
+  width: 190px;
+}
+
+
+.re-logos{
+  background-color: #FFFFFF;
+  border: none;
+}
+.don{
+  height: 250px;
+  width: 430px; 
+}
+

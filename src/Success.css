@@ -1,0 +1,167 @@
+:root {
+    --primary-color: #FC8A06;
+    --secondary-color: #03081F;
+    --light-bg: #FBFBFB;
+    --dark-bg: #212529;
+    --text-color: #000000CC;
+    --font-family: 'Poppins', sans-serif;
+  } 
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    font-family: var(--font-family);
+    color: var(--secondary-color);
+  }
+  .header {
+    width: 1250px;
+    max-width: 1400px; 
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+  .f1{
+    margin-left: 550px;
+  }
+
+  .order{
+    color: #000000;
+  }
+
+  .order2{
+    margin-left: -60px;
+    color: #83858A;
+    font-size: 14px;
+
+  }
+
+  .order3{
+    color: #83858A;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: -10px;
+  }
+
+  .items{
+    width: 350px;
+    height: 250px;
+    margin-left: -80px;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: #FAFAFA;
+    border-color: #83858A;
+  }
+
+  .btn{
+    background-color: #FC8A06;
+    color: #FAFAFA;
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    margin-left: -50px;
+    cursor: pointer;
+  }
+
+  .item{
+    padding-top: 10px;
+    padding-left: 50px;
+  }
+
+  .i{
+    margin-left: -50px;
+    font-size: 20px;
+  }
+
+  @media (max-width: 768px) {
+    .header {
+      width: 100%;
+      padding: 15px;
+    }
+  
+    .f1 {
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .order {
+      font-size: 16px;
+    }
+  
+    .order2, .order3 {
+      font-size: 12px;
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .items {
+      width: 100%;
+      height: auto;
+      margin-left: 0;
+      margin-top: 20px;
+      border-radius: 15px;
+    }
+  
+    .btn {
+      width: 100%;
+      margin-left: 0;
+      font-size: 16px;
+    }
+  
+    .item {
+      padding-left: 20px;
+      padding-top: 15px;
+    }
+  
+    .i {
+      margin-left: 0;
+      font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header {
+      padding: 10px;
+    }
+  
+    .f1 {
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .order {
+      font-size: 14px;
+    }
+  
+    .order2, .order3 {
+      font-size: 12px;
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .items {
+      width: 100%;
+      height: auto;
+      margin-left: 0;
+      margin-top: 15px;
+      border-radius: 10px;
+    }
+  
+    .btn {
+      width: 100%;
+      margin-left: 0;
+      font-size: 14px;
+    }
+  
+    .item {
+      padding-left: 10px;
+      padding-top: 10px;
+    }
+  
+    .i {
+      margin-left: 0;
+      font-size: 16px;
+    }
+  }
+  

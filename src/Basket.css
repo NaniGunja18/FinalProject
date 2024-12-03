@@ -1,0 +1,243 @@
+.basket-container {
+    width: 300px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .basket-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    background-color: #028643;
+    color: #FAFAFA;
+    width: 333px;
+    height: 80px;
+    margin-left: -17px;
+    margin-top: -20px;
+  }
+  
+  .basket-header img {
+    width: 40px;
+    height: 50px;
+  }
+
+  .bask{
+    margin-left: 40px;
+  }
+
+  .mb1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  
+    /* .basket-items {
+        margin-bottom: 20px;
+    } */
+  
+  .basket-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .item-quantity {
+    font-weight: bold;
+    margin-right: 8px;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: #FAFAFA;
+    background-color: #FC8A06;
+    border-radius: 100px;
+  }
+  
+  .item-details {
+    flex-grow: 1;
+    margin-left: 8px;
+  }
+  
+  .item-name {
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .item-description {
+    font-size: 12px;
+    color: #666;
+    margin: 0;
+  }
+  
+  .item-price {
+    font-weight: bold;
+    margin-right: 8px;
+  }
+  
+  .remove-btn {
+    background: none;
+    border: none;
+    color: red;
+    cursor: pointer;
+  }
+
+  .basket-summary{
+    box-shadow: 0  2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .basket-summary p {
+    margin: 4px 0;
+  }
+
+  .it2{
+    padding-top: 10px;
+  }
+  .it3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .it4{
+    height: 50px;
+    background-color: #FC8A06;
+    text-align: center;
+    color: #FAFAFA;
+    justify-content: space-between;
+    border-radius: 10px;
+  }
+
+  .st{
+    padding-top: 10px;
+    font-size: 20px;
+    /* font-weight: bold; */
+  }
+
+  .choose-free-item-btn{
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    background-color: #CFCFCF;
+    color: #000000;
+    text-align: center;
+    align-items: center ;
+    justify-content: space-between;
+    display: flex;
+    
+  }
+
+  .choose-free-item-btn1{
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    background-color: #CFCFCF;
+    color: #000000;
+    text-align: center;
+    align-items: center ;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 30px;
+    
+  }
+
+  .ceo{
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+
+  .dd{
+    padding-left: 50px;
+  }
+
+
+  .additional-features {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+    box-shadow: 0  2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .apply-coupon-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .delivery-collection {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .delivery-btn {
+    width: 50%;
+    background-color: #EEEEEE;
+    height: 100px;
+    border-radius: 10px;
+    border: none;
+  }
+
+  .sc1{
+    margin-bottom: -10px;
+  }
+
+  .delivery{
+    font-weight: bold;
+    margin-bottom: 0px;
+  }
+
+  .collection-btn{
+    width: 50%;
+    background-color: #FAFAFA;
+    height: 100px;
+    border-radius: 10px;
+    border: none;
+  }
+
+  .line1{
+    margin-top: 5px;
+  }
+  
+  .line1 img{
+    height: 90px;
+  }
+  .delivery-btn {
+    margin-right: 10px;
+  }
+
+  .forward{
+    margin-left: -240px;
+  }
+
+  .check{
+    margin-top: -35px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .checkout-btn {
+    width: 100%;
+    background-color: #00a859;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 50px;
+  }
+  
+  .checkout-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
