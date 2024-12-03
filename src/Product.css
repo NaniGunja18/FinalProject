@@ -67,7 +67,8 @@
   .burr{
     height: 330px;
     margin-top: 30px;
-/*     margin-right: 0px; */
+      border:2px solid red;
+    margin-right: 120px;
   }
 
   .rat{
