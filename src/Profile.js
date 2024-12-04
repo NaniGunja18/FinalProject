@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { useUser } from './UserContext'; 
+import { useUser } from "./UserContext"; 
 import Header3 from "./Header3";
-import EditPaymentModal from "./EditPay";
+import EditPaymentModal from "./EditPay"; 
 import "./Profile.css";
 
 const ProductPage = () => {
@@ -10,6 +10,7 @@ const ProductPage = () => {
   const navigate = useNavigate();
   const [modalVisible, setModalVisible] = useState(false);
   const [selectedCard, setSelectedCard] = useState(null);
+
   const [cards, setCards] = useState([
     { id: 1, cardNumber: "xxxx xxxx xxxx 1234", name: "Mike Ross", type: "Mastercard", expiration: "11/26", cvc: "123" },
     { id: 2, cardNumber: "xxxx xxxx xxxx 6789", name: "Mike Ross", type: "Rupay", expiration: "12/25", cvc: "456" },
@@ -40,38 +41,53 @@ const ProductPage = () => {
         <div className="main">
           <div className="rig">
             <p className="s1">
-              <img src="arr.png" className="arr" />
-              <p className="mp" style={{fontSize:"25px"}}>My Pro</p>
+              <img src="arr.png" alt="Back Arrow" className="arr" />
+              <p className="mp" style={{ fontSize: "25px" }}>My Profile</p>
             </p>
             <p className="s2">
-              <img src="profile.png" className="pro" />
-              <p className="pf">{ localStorage.getItem("name")
-              }</p> 
+              <img src="profile.png" alt="Profile Icon" className="pro" />
+              <p className="pf">{localStorage.getItem("name") || user?.name || "User Name"}</p>
             </p>
           </div>
           <div className="lef">
-            <button className="edit" onClick={() => navigate('/Profile')}>Edit</button>
+            <button className="edit" onClick={() => navigate("/Profile")}>Edit</button>
           </div>
         </div>
         <div className="fh">
           <div className="flex1">
             <p className="fn">Full Name</p>
-            <button className="mr1">{localStorage.getItem("name")}</button> 
+            <button className="mr1">{localStorage.getItem("name") || user?.name || "User Name"}</button>
           </div>
           <div className="flex2">
             <p className="ea">Email Address</p>
-            <button className="mr2">{localStorage.getItem("email")}</button> 
+            <button className="mr2">{localStorage.getItem("email") || user?.email || "user@example.com"}</button>
           </div>
         </div>
         <div className="fh">
           <div className="flex1">
             <p className="fn">Gender</p>
-            <button className="mr1">Male</button> 
+            <button className="mr1">{user?.gender || "Male"}</button>
           </div>
           <div className="flex2">
             <p className="ea">Country</p>
-            <button className="mr2">India</button>
+            <button className="mr2">{user?.country || "India"}</button>
           </div>
+        </div>
+      </div>
+      <img src="lll.png" alt="Separator" className="ll" />
+      <div className="p2">
+        <p className="spm">Saved Payment Methods</p>
+        <div className="cards">
+          {cards.map((card) => (
+            <button key={card.id} className="deb" onClick={() => handleEditClick(card)}>
+              <img src="debit.png" alt="Debit Card" className="debit" />
+              <p className="x">
+                {card.cardNumber}
+                <p className="xx">{card.type}</p>
+              </p>
+              <img src="pen.png" alt="Edit Icon" className="pen" />
+            </button>
+          ))}
         </div>
       </div>
       {modalVisible && (
